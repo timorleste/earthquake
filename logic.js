@@ -70,7 +70,7 @@ function createMap(earthquakes) {
     center: [
       -8.71136, 126.07910
     ],
-    zoom: 8,
+    zoom: 6,
     layers: [streetmap, earthquakes]
   });
 
