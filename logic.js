@@ -89,7 +89,7 @@ function createMap(earthquakes) {
   }
 
   // Create a legend 
-  var legend = L.control({position: 'bottomright'});
+  var legend = L.control({position: 'topright'});
 
   legend.onAdd = function (map) {
   
