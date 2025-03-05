@@ -12,10 +12,11 @@ href="https://caravela.files.wordpress.com/2016/07/ico.png">
 <meta name="description" content="Our mission is to help facilitate the newly independent East-Timor in accessing the voices and the key events in its past and fostering an understanding of its unique cultural heritage; to help unite and secure the identity of the country and its people; and to contribute to the forging of a new democratic nation. To ensure the survival of unique resources which contain and communicate the experience and the story of Timor-Leste and to place these at the service of peace and understanding, in Timor-Leste, Regionally and Internationally.">
 <meta name="keywords" content="Information, Technology, Media, System, Management, Audio, Visual, Archive, CAMSTL, East-Timor, Timor-Leste, Timor-Lorosa'e">
 
+<!-- Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
 <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-  
  
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
 
@@ -24,13 +25,9 @@ href="https://caravela.files.wordpress.com/2016/07/ico.png">
 
 <body>
  
-  <div id="map"></div>
+  <div id="map" class="container-fluid"></div>
   
   <script type="text/javascript" src="logic.js"></script>
-  
-  
-  
-  
   
 <!-- Load Facebook SDK for JavaScript -->
       <div id="fb-root"></div>
@@ -54,12 +51,15 @@ href="https://caravela.files.wordpress.com/2016/07/ico.png">
       <div class="fb-customerchat"
         attribution=setup_tool
         page_id="217976488372499"
-  theme_color="#67b868"
-  logged_in_greeting="Ola! How can we help you?"
-  logged_out_greeting="Ola! How can we help you?">
+        theme_color="#67b868"
+        logged_in_greeting="Ola! How can we help you?"
+        logged_out_greeting="Ola! How can we help you?">
       </div>
-  
-  
+
+<!-- Bootstrap JS and dependencies -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   
 </body>
 </html>
